@@ -67,7 +67,7 @@ end
 =end
 
 def runner
-  dealer
+  dealerScore = rand(15..24)
   welcome
   score = initial_round
   
