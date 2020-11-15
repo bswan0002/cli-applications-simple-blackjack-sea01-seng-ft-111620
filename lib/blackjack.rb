@@ -54,6 +54,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
+=begin
 def runner
   welcome
   score = initial_round
@@ -63,4 +64,11 @@ def runner
   end
 end_game(score)
 end
-    
+=end
+
+def runner
+  dealer
+  welcome
+  score = initial_round
+  
+end
